@@ -1,0 +1,5 @@
+auth_server/node_modules
+auth_server/.env
+auth_server/.prettierrc
+auth_server/link-slide-1bde293dc764.json
+social-client/node_modules

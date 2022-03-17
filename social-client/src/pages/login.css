@@ -1,0 +1,80 @@
+:root {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.split-screen {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("https://i.pinimg.com/originals/a5/fd/da/a5fddaabea95c1000320ae4eaa4cb60c.jpg");
+  background-size: cover;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+
+.left .copy {
+  color: white;
+  text-align: center;
+}
+
+.left .p {
+  font-weight: 400;
+}
+
+.right .copy {
+  color: black;
+  text-align: center;
+}
+
+.right form {
+  width: 320px;
+  text-align: center;
+}
+
+.textfield {
+  display: block;
+  width: 100%;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+.MuiButtonBase-root.MuiButton-root {
+  text-transform: none;
+  height: 50px;
+  width: 100%;
+}
+
+.signin-btn .MuiButton-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.25rem;
+}
+
